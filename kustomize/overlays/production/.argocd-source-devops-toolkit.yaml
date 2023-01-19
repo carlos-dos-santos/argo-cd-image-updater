@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - machamba/java-demo-app:v1.0.0
