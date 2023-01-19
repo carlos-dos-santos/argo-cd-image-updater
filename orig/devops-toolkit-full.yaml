@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
   annotations:
-    argocd-image-updater.argoproj.io/image-list: machamba/java-demo-app:^v1
+    argocd-image-updater.argoproj.io/image-list: machamba/java-demo-app:^1
     argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   project: production
