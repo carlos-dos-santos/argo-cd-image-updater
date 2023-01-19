@@ -6,12 +6,12 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
   annotations:
-    argocd-image-updater.argoproj.io/image-list: vfarcic/devops-toolkit:^1
+    argocd-image-updater.argoproj.io/image-list: machamba/java-demo-app:^v1
     argocd-image-updater.argoproj.io/write-back-method: git
 spec:
   project: production
   source:
-    repoURL: https://github.com/vfarcic/argo-cd-image-updater
+    repoURL: https://github.com/carlos-dos-santos/argo-cd-image-updater
     targetRevision: HEAD
     path: kustomize
   destination:
