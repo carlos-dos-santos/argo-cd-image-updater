@@ -31,6 +31,7 @@ spec:
           httpGet:
             path: /
             port: 80
+          initialDelaySeconds: 120
         resources:
           limits:
             cpu: 1000m
